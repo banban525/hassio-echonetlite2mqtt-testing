@@ -2,7 +2,7 @@ name: "trials-ha-addon"
 description: "trials-ha-addon"
 version: "2.1.1"
 slug: "trials-ha-addon"
-image: ghcr.io/banban525/trials-ha-addon-addon/{arch}:v2.1.1
+image: ghcr.io/banban525/trials-ha-addon-addon/{arch}
 arch:
   - aarch64
   - amd64
