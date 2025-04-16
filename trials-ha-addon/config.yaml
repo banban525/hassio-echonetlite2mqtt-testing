@@ -3,6 +3,7 @@ description: "trials-ha-addon"
 version: "v2.1.1"
 slug: "trials-ha-addon"
 image: ghcr.io/banban525/trials-ha-addon-addon/{arch}
+url: https://github.com/banban525/trials-ha-addon
 arch:
   - aarch64
   - amd64
