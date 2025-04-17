@@ -1,6 +1,6 @@
 name: "trials-ha-addon"
 description: "trials-ha-addon"
-version: "v2.3.0"
+version: "v2.3.1"
 slug: "trials-ha-addon"
 image: ghcr.io/banban525/trials-ha-addon-addon/{arch}
 url: https://github.com/banban525/trials-ha-addon
@@ -12,9 +12,9 @@ host_network: true
 services:
   - mqtt:need
 ingress: true
-ingress_port: 8099
+ingress_port: 8098
 ports:
-  8099/tcp: 8099
+  8099/tcp: 8098
 ports_description:
   8099/tcp: "Frontend tcp-listen port"
 map:
