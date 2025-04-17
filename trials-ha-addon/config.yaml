@@ -1,6 +1,6 @@
 name: "trials-ha-addon"
 description: "trials-ha-addon"
-version: "v2.5.0"
+version: "v2.6.0"
 slug: "trials-ha-addon"
 image: ghcr.io/banban525/trials-ha-addon-addon/{arch}
 url: https://github.com/banban525/trials-ha-addon
@@ -29,7 +29,10 @@ map:
     read_only: false
 options:
   mqtt: {}
-  echonet: {}
+  echonet: {
+    device_ip_list: []
+  }
+  device_ip_list: []
 schema:
   mqtt:
     broker: str?
